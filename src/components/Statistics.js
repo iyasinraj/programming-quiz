@@ -6,7 +6,7 @@ const Statistics = () => {
     const quizData = useLoaderData()
     return (
         <div>
-            <p className='text-center text-3xl font-bold'>Statistics</p>
+            <p className='text-center text-3xl font-bold'>Total Quiz</p>
             <div className='w-11/12 mx-auto'>
                 <BarChart
                 width={500}
