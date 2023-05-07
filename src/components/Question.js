@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Option from './Option';
 
-const Question = ({q}) => {
-    const {correctAnswer, id, options, question} = q
+const Question = ({q, change}) => {
+    const {correctAnswer,id, options, question} = q
     const [answer, setAnswer] = useState(false)
     const showAnswer = () => {
         if(answer){
@@ -27,11 +27,8 @@ const Question = ({q}) => {
             <p className={answer === true ? `static`: `hidden`}>Correct Answer: <small className='font-bold text-green-300'>{correctAnswer}</small></p>
             <div className='my-5 grid grid-cols-2 gap-4'>
                 {
-                    options.map((option, optionIdx) => <Option key={optionIdx} correctAnswer={correctAnswer} option={option}></Option>)
+                    options.map((option, index) => <Option key={index} index={index} id = {id} change={change} correctAnswer={correctAnswer} option={option}></Option>)
                 }
-            </div>
-            <div>
-
             </div>
 
         </div>
