@@ -9,7 +9,7 @@ const NavBar = () => {
             <div className='navbar font-bold text-xl mx-auto'>
             <NavLink to='/'>Home</NavLink>
             <NavLink to='/topic'>Topic</NavLink>
-            <NavLink to='/staristics'>Statistics</NavLink>
+            <NavLink to='/statistics'>Statistics</NavLink>
             <NavLink to='/blog'>Blog</NavLink>
             </div>
         </div>
