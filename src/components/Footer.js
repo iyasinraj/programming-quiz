@@ -25,7 +25,7 @@ const Footer = () => {
                         <a className='hover:text-gray-700'  href="http://www.instagram.com/iyasinraj" target='blank'><i class="fa-brands fa-instagram"></i></a>
                         
                     </div>
-                    <iframe className='rounded-md w-full' src="https://www.facebook.com/importanttechnology" title="website" frameborder="0">facebook page</iframe>
+                    <iframe width="280" height="157" src="https://www.youtube-nocookie.com/embed/iv7lcUkFVSc?start=24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
             <p className='text-center text-xs md:text-2xl pt-5 md:pt-10'>All right reserved by <Link className='text-slate-200'>Programming Quiz</Link></p>
